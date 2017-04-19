@@ -16,5 +16,9 @@
         android:fragment="com.cclz.myapp_170419_03.SettingsActivity$DataSyncPreferenceFragment"
         android:icon="@drawable/ic_sync_black_24dp"
         android:title="@string/pref_header_data_sync" />
+    <header
+        android:fragment="com.cclz.myapp_170419_03.SettingsActivity$CloudPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="Cloud Settings" />
 
 </preference-headers>
